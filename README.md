@@ -16,19 +16,25 @@
 #### * Ground Clearance
 #### * AWD
 ![Figure_1](https://github.com/Gdreyes172/MechaCar_Statistical_Analysis/blob/main/Resources/images/Figure1.png)
+##### Figure 1
 ### As the data above shows, we see the significant correlations for vehicle length, vehicle weight, and ground clearance when measured with MPG based on ther p-values (shown as Pr(>|t|).)
 ### Each of these variables has a positive coefficient/slope greater than 1, this along with p-values less the 5% show a positive relationship to the with the MPG.
 ### From the Rsquared value and the p-value for the entire test we can infer that the regression models can precisely predict how each of these measures can impact the MPG of the MechaCar prototype.
 ---
-![Figure_2](https://github.com/Gdreyes172/MechaCar_Statistical_Analysis/blob/main/Resources/images/Figure2.png)
 ## Summary Statistics on Suspension Coils
 ### Per our literature: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+![Figure_2](https://github.com/Gdreyes172/MechaCar_Statistical_Analysis/blob/main/Resources/images/Figure2.png)
+##### Figure 2
 ### In this review, we look at Figure 2 to see the three Manufacturing lots. Using the variance as the measure of whether the lots are below, at, or over their 100 lbs per square inch, we can conclude that lot 3 appears to be exceeding this design requirement by over 59 - 83 lbs/in^2.
 ![Figure_3](https://github.com/Gdreyes172/MechaCar_Statistical_Analysis/blob/main/Resources/images/Figure3.png)
+##### Figure 3
 ### The total summary for all three lots combined paints a different picture as the mean for all three lots variance is roughly 62.29. 
-![Figure_4](https://github.com/Gdreyes172/MechaCar_Statistical_Analysis/blob/main/Resources/images/Figure4.png)
-![Figure_5](https://github.com/Gdreyes172/MechaCar_Statistical_Analysis/blob/main/Resources/images/Figure5.png)
+---
 ## Suspension Coil T-Test
+![Figure_4](https://github.com/Gdreyes172/MechaCar_Statistical_Analysis/blob/main/Resources/images/Figure4.png)
+##### Figure 4
+![Figure_5](https://github.com/Gdreyes172/MechaCar_Statistical_Analysis/blob/main/Resources/images/Figure5.png)
+##### Figure 5
 ### Our interpretation of this data was to use a t-test in order to measure how each lot's samples for PSI measurements compare to the design expected 1500 PSI.
 #### H0: all manufacturing lots are producing at their design specifications; there is no statistical difference in the PSI measurements per lot.
 #### H1: there is a production anomaly; there is a statistical difference between our expected PSI and the PSI produced by each or one of the lots.
